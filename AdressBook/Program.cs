@@ -33,6 +33,12 @@ namespace AdressBook
                         };
                         break;
                     case 2:
+                        Console.WriteLine("Enter the contact to be added : ");
+                        Contacts con = new Contacts();
+                        con.AddContact();
+                        con.Display();
+                        break;
+                    case 3:
                         flag = false;
                         break;
                 }
